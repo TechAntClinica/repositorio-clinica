@@ -1,0 +1,63 @@
+.container_general_colaborador {
+
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/login.jpg);
+  background-size: cover;
+}
+.Cuadro_login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(240, 240, 235, 1);
+    box-shadow: 8px 8px 12px rgb(161, 161, 149), -2px -2px 4px white;
+}
+
+.Logo_Colaborador {
+  width:170px;
+  height: 200px;
+  border-radius: 10px;
+}
+/*
+.textInput_colaborador {
+  color: #fff;
+  font-weight: 500;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.5s, border-color 0.5s; 
+}
+
+.textInput_colaborador:hover {
+  background-color: #86beee; 
+  border-color: #86beee; 
+}
+
+.textInput_colaborador:hover::placeholder {
+  color: #fff;
+}
+*/
+.titulo_login_colaborador {
+  font-weight: 500;
+  color: #4b83e4 ;
+
+}
+.Letras_Usuario_colaborador {
+  font-weight: bold;
+}
+
+.Letras_Contraseña_colaborador {
+  font-weight: bold;
+}
+
+@media (max-width:450px) {
+  .Container_Principal_colaborador {
+    position: absolute;
+      left: 54%;
+    }
+  }
