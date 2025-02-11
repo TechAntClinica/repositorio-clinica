@@ -163,7 +163,7 @@ const HomePrincipal = () => {
                 className="letras-cuadro"
                 href="https://app.powerbi.com/groups/me/reports/1395e79d-4bcd-4af4-92b7-4ed80ff499cf/c31127e33a083cb883c1?experience=power-bi"
               >
-                Frecuencia Cardiaca
+                Mirar Graficas
               </a>
             </div>
           )}
