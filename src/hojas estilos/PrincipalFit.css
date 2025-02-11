@@ -1,0 +1,106 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.app-container {
+  display: flex;
+  overflow: hidden;
+}
+.ordenar_cuadro{
+  width: 100%;
+}
+
+.sidebar {
+  width: 300px;
+  min-height: 100vh; /* Ajuste para que ocupe toda la altura */
+  position: static;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #f8f9fa;
+}
+
+.card {
+  border: none;
+  background-color: #fff;
+}
+
+.cuadro_azul {
+  width: 100%;
+  height: 80px;
+  background-color:  #d4ecf4 ;
+}
+
+.button-menu {
+  width: 100%; /* El botón ocupa el 100% del ancho del contenedor */
+  background-color: #24242c;
+  color: white;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.button-menu:hover {
+  background-color: #55acda; /* Cambia el color de fondo */
+  border-color: #55acda; /* Cambia el color del borde */
+
+}
+.menu-cuadro {
+  background-color: #333;
+  color: white;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  margin-top: 10px;
+}
+.letras-cuadro {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  margin-left:25px;
+}
+
+.letras-cuadro:hover{
+  color: #d43232;
+}
+
+.Logo_Clinica{
+  width:60px;
+  height: 60px;
+  border-radius: 120px;
+}
+.cuadro-logo{
+  display: grid;
+  place-items: center; /* Centra en ambas direcciones */
+  padding-top: 20px;
+  background-color: rgb(27, 26, 26);
+}
+
+.letra-menu{
+  margin-left: 5px;
+}
+
+i.bxs-file-pdf {
+  font-size: 60px;
+ color: #047ccc;
+}
+i.bxs-spreadsheet{
+  font-size: 60px;
+  color: #047ccc;
+}
+
+i.bxs-user-account {
+  font-size: 60px;
+ color: #047ccc;
+}
+
+
+/*#007bff*/
