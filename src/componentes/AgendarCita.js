@@ -96,7 +96,7 @@ const AppointmentScheduler = () => {
   );
 
   const [documentType, setDocumentType] = useState("");
-  const [selectDoctor, setselectDoctor] = useState("");
+  const [selectDoctor, setSelectDoctor] = useState("");
   const [documentValue, setDocumentValue] = useState("");
   const [query, setQuery] = useState("");
 
@@ -381,12 +381,11 @@ const AppointmentScheduler = () => {
               <label>* Médico Tratante</label>
               <div className="cedula-cuadro">
                 <select
-                  className="select-cuadro"
-                  value={documentType}
-                  onChange={(e) => setselectDoctor(e.target.value)}
+                  value={selectDoctor}
+                  onChange={(e) => setSelectDoctor(e.target.value)}
                   style={{ padding: "5px" }}
                 >
-                  <option value="Seleccione Doctor">Seleccione Doctor</option>
+                  <option value="">Seleccione Doctor...</option>
                   <option value="Jair Niebles">Jair Niebles</option>
                 </select>
               </div>
